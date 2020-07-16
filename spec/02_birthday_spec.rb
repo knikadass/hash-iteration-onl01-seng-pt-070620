@@ -29,7 +29,7 @@ describe "#age_appropriate_birthday" do
         if age <= 12
          puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
          else age >= 12
-           puts "You're too old for this"
+           puts "You are too old for this."
        end
       end
  end
